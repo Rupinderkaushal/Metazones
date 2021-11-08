@@ -1,0 +1,54 @@
+.home-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 20px;
+}
+
+.home-wrapper .home-text-div {
+  font-family: "federo";
+}
+
+.home-wrapper .home-text-div h1 {
+  color: black;
+}
+
+.home-wrapper .home-text-div p {
+  color: black;
+  font-weight: bold;
+}
+
+.home-wrapper .home-text-div button {
+  background: black;
+  margin-top: 50px;
+}
+
+@media (min-width: 320px) and (max-width: 450px) {
+  .home-pic-div {
+    width: 90%;
+    margin: auto;
+  }
+  .home-pic-div img {
+    width: inherit;
+    border-radius: 15px;
+  }
+  .home-text-div {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 451px) and (max-width: 770px) {
+  .home-pic-div {
+    margin-top: 30px;
+  }
+}
+/*# sourceMappingURL=Home.css.map */

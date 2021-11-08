@@ -1,0 +1,51 @@
+.search{
+    width:80%;
+    font-family: 'federo';
+    margin: auto;
+  p{
+      font-weight: bolder;
+    margin-top: 80px;
+
+      font-size: 20px;
+      color: black;
+  }
+  span{
+      font-size: 15px;
+      font-weight: bolder;
+      color: black;
+  }
+    input{
+        width: 70%;
+        border: none;
+        border-bottom: 1px solid grey;
+        margin-bottom: 20px;
+    }
+    #dogs-result{
+        width: 150px;
+        height: 150px;
+        background: grey;
+        margin: 20px 0px;
+    }
+    h4{
+        font-size: 20px;
+        font-weight: bolder;
+        color: black;
+    }
+    label{
+        font-size: 15px;
+        font-weight: bolder;
+        color: black;
+    }
+    #result-card{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+@media (min-width:320px) and (max-width:450px){
+    #result-card{
+        justify-content: flex-start;
+    
+    }
+}

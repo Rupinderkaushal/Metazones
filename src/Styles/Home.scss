@@ -1,0 +1,43 @@
+.home-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+
+    .home-text-div{
+        font-family: "federo";
+  h1{
+      color: black;
+  }
+        p{
+      color: black;
+      font-weight: bold;
+        }
+        button{
+            background: black;
+            margin-top: 50px;
+        }
+
+    }
+    
+}
+@media (min-width:320px) and (max-width:450px){
+    .home-pic-div{
+        width: 90%;
+        margin: auto;
+        img{
+            width: inherit;
+            border-radius: 15px;
+        }
+    }
+    .home-text-div{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+@media(min-width:451px) and (max-width:770px){
+    .home-pic-div{
+        margin-top: 30px;
+    }
+}

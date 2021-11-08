@@ -1,0 +1,66 @@
+.search {
+  width: 80%;
+  font-family: 'federo';
+  margin: auto;
+}
+
+.search p {
+  font-weight: bolder;
+  margin-top: 80px;
+  font-size: 20px;
+  color: black;
+}
+
+.search span {
+  font-size: 15px;
+  font-weight: bolder;
+  color: black;
+}
+
+.search input {
+  width: 70%;
+  border: none;
+  border-bottom: 1px solid grey;
+  margin-bottom: 20px;
+}
+
+.search #dogs-result {
+  width: 150px;
+  height: 150px;
+  background: grey;
+  margin: 20px 0px;
+}
+
+.search h4 {
+  font-size: 20px;
+  font-weight: bolder;
+  color: black;
+}
+
+.search label {
+  font-size: 15px;
+  font-weight: bolder;
+  color: black;
+}
+
+.search #result-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media (min-width: 320px) and (max-width: 450px) {
+  #result-card {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+/*# sourceMappingURL=Search.css.map */
