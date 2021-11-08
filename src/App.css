@@ -12,15 +12,18 @@
 }
 #dp-link{
     margin-right: 10px;
+    position: absolute;
 }
 #logo-pic{
     margin-right: 540px;
 }
 #ul-div{
     list-style-type: none;
-    display: none;
-    /* position: relative; */
-    
+    width: 200px;
+    /* display: none; */
+    position: absolute;
+    transform: translateX(-150px);
+    padding-top: 20px;
 }
 a{
     text-decoration: none;

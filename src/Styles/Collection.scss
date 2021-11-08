@@ -1,0 +1,22 @@
+.collection-div{
+    font-family: 'federo';
+    width: 80%;
+    margin: auto;
+    .col-text{
+        font-weight: bolder;
+        color: black;
+        margin: 20px;
+    }
+    #dogs-result{
+        width: 150px;
+        height: 150px;
+        background: grey;
+        margin: 20px 0px;
+    }
+    #result-card{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+}

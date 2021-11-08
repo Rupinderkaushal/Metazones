@@ -1,0 +1,32 @@
+.collection-div {
+  font-family: 'federo';
+  width: 80%;
+  margin: auto;
+}
+
+.collection-div .col-text {
+  font-weight: bolder;
+  color: black;
+  margin: 20px;
+}
+
+.collection-div #dogs-result {
+  width: 150px;
+  height: 150px;
+  background: grey;
+  margin: 20px 0px;
+}
+
+.collection-div #result-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+/*# sourceMappingURL=Collection.css.map */
