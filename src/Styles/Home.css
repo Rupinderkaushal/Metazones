@@ -10,7 +10,7 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  padding: 20px;
+  margin-top: 50px;
 }
 
 .home-wrapper .home-text-div {
@@ -29,6 +29,10 @@
 .home-wrapper .home-text-div button {
   background: black;
   margin-top: 50px;
+}
+
+.home-wrapper .home-pic-div img {
+  border-radius: 15px;
 }
 
 @media (min-width: 320px) and (max-width: 450px) {

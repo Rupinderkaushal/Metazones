@@ -1,10 +1,10 @@
 import React from 'react'
 import {NavLink} from 'react-router-dom'
 import "../../Styles/Navbar.css"
-const Navbar = () => {
+const Navbar1 = () => {
     return (
         <div className="navbar-wrapper">
-            <NavLink exact  className='navlink' to='/'>Home</NavLink>
+            <NavLink exact className='navlink' to='/'>Home</NavLink>
             <NavLink className='navlink' to='/create' >Create</NavLink>
             <NavLink className='navlink' to='/search' >Search</NavLink>
             <NavLink className='navlink' to='/community' >Community</NavLink>
@@ -15,4 +15,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Navbar1

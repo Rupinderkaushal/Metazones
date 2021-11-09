@@ -8,9 +8,19 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  margin: 20px 0px;
+}
+
+.create-wrapper .create-form-div {
+  width: 30%;
+}
+
+.create-wrapper .create-form-div form {
+  padding: 10px;
 }
 
 .create-wrapper .create-form-div form label {
+  width: 100%;
   font-weight: bold;
   color: black;
   margin-top: 10px;
@@ -21,27 +31,44 @@
   height: 100px;
   border: 1px solid grey;
   margin: 20px 0px;
+  border-radius: 15px;
 }
 
-.create-wrapper .create-form-div form button {
+.create-wrapper .create-form-div form .btn-div {
+  text-align: center;
+}
+
+.create-wrapper .create-form-div form .btn-div button {
   background: black;
   margin-top: 50px;
 }
 
 .create-wrapper #input {
-  border: none;
-  border-bottom: 1px solid black;
+  border: transparent;
+  width: 100%;
+  border-bottom: 1px solid grey;
 }
 
-.create-wrapper .create-pic {
+.create-wrapper .pic-div {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.create-wrapper .pic-div .create-pic {
   width: 200px;
   height: 200px;
   margin-top: 40px;
 }
 
-.create-wrapper .create-pic img {
-  width: inherit;
-  height: inherit;
+.create-wrapper .pic-div .create-pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
 }
 
 @media (min-width: 320px) and (max-width: 450px) {

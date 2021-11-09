@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     margin: 10px 0px;
 }
 #dp-pic{
@@ -11,24 +11,22 @@
     border-radius: 40px;
 }
 #dp-link{
-    margin-right: 10px;
     position: absolute;
+    right: 5px;
 }
 #logo-pic{
-    margin-right: 540px;
+    /* margin-right: 540px; */
 }
 #ul-div{
     list-style-type: none;
     width: 200px;
-    /* display: none; */
+    display: none;
     position: absolute;
     transform: translateX(-150px);
     padding-top: 20px;
 }
 a{
     text-decoration: none;
-    
-
 }
 li{text-align: center;
     color: black;
@@ -38,6 +36,51 @@ padding: 0px 20px;
 }
 #down-arrow{
     width: 10px;
+}
+.ham-div{
+    position: absolute;
+    left: 20px;
+    cursor: pointer;    
+}
+.ham-div div{
+    background:black;
+    width: 35px;
+    border-radius: 5px;
+    height: 5px;
+}
+.ham-div div:after,.ham-div div:before{
+    background: black;
+    border-radius: 5px;
+    width: 35px;
+    height: 5px;
+    position: absolute;
+    content: "";
+}
+.ham-div div:after{
+    transform: translateY(-10px);
+}
+.ham-div div::before{
+    transform: translateY(10px);
+}
+#hamlink{
+width: 20%;
+border: solid red;
+display: none;
+}
+#hamlink ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px;
+}
+#hamlink ul li{
+    border: none;
+    margin: 0px;
+    padding: 10px;
+}
+.xdiv img{
+    width: 20px;
+    float: right;
+    
 }
 @media (min-width:320px) and (max-width:450px){
     #logo-pic{
@@ -52,3 +95,4 @@ padding: 0px 20px;
         margin-right: 0px;
     }
 }
+

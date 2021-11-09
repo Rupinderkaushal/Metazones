@@ -19,12 +19,16 @@ const Create = () => {
                     <input id="input" type="text"/><br/>
                     <label>Tags</label> <br/>
                     <input id="input" type="text"/><br/>
-                    <Button>Mint NFT</Button>
+                   <div className='btn-div'>
+                   <Button>Mint NFT</Button>
+                   </div>
                 </form>
             </div>
-            <div className="create-pic">
+           <div className='pic-div'>
+           <div className="create-pic">
                 <img src={Pic}/>
             </div>
+           </div>
         </div>
     )
 }

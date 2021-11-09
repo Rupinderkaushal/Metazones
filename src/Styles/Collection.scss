@@ -1,11 +1,14 @@
 .collection-div{
     font-family: 'federo';
-    width: 80%;
+    width: 70%;
     margin: auto;
     .col-text{
         font-weight: bolder;
         color: black;
         margin: 20px;
+        h4{
+            font-weight: bold;
+        }
     }
     #dogs-result{
         width: 150px;

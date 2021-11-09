@@ -3,8 +3,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    padding: 20px;
-
+    margin-top: 50px;
     .home-text-div{
         font-family: "federo";
   h1{
@@ -20,7 +19,11 @@
         }
 
     }
-    
+    .home-pic-div{
+        img{
+            border-radius: 15px;
+        }
+    }
 }
 @media (min-width:320px) and (max-width:450px){
     .home-pic-div{
