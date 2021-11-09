@@ -1,11 +1,25 @@
 #card-results{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     background: grey;
     margin: 20px 0px;
     img{
         width: 100%;
         height: 100%;
         border-radius: 15px;
+    }
+}
+@media(min-width:320px) and (max-width:450px){
+    #card-results{
+       width: 80%;
+       margin: 20px auto;
+    }
+    h4{
+     text-align: center;
+    }
+    label{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }

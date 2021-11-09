@@ -66,9 +66,9 @@ function App() {
     <a onClick={Toggler}  id="dp-link" href=""><img id="dp-pic" src={Logo} /><img id="down-arrow" src={Down}/>
       <ul id="ul-div">
         
-        <li><a style={{textDecoration:'none',color:'black'}} href="">My Profile</a></li>
-        <li><a style={{textDecoration:'none',color:'black'}} href="">My Collections</a></li>
-        <li><a style={{textDecoration:'none',color:'black'}} href="">My Transactions</a></li>
+        <li><NavLink style={{textDecoration:'none',color:'black'}} to="">My Profile</NavLink></li>
+        <li><NavLink style={{textDecoration:'none',color:'black'}} to="/collection">My Collections</NavLink></li>
+        <li><NavLink style={{textDecoration:'none',color:'black'}} to="">My Transactions</NavLink></li>
         
       </ul>
     </a>
