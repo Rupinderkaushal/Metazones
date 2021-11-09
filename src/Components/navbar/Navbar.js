@@ -5,7 +5,7 @@ const Navbar1 = () => {
     return (
         <div className="navbar-wrapper">
             <NavLink exact className='navlink' to='/'>Home</NavLink>
-            <NavLink className='navlink' to='/create' >Create</NavLink>
+            <NavLink  className='navlink' to='/create' >Create</NavLink>
             <NavLink className='navlink' to='/search' >Search</NavLink>
             <NavLink className='navlink' to='/community' >Community</NavLink>
             <NavLink className='navlink' to='/feature' >Feature</NavLink>

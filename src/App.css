@@ -40,7 +40,8 @@ padding: 0px 20px;
 .ham-div{
     position: absolute;
     left: 20px;
-    cursor: pointer;    
+    cursor: pointer;   
+    display: none; 
 }
 .ham-div div{
     background:black;
@@ -63,24 +64,47 @@ padding: 0px 20px;
     transform: translateY(10px);
 }
 #hamlink{
-width: 20%;
-border: solid red;
+width: 100%;
+transform: translateY(-9px);
+font-family: "Girassol";
+position: absolute;
+padding: 10px 0px;
+background: #fff;
+z-index: 99;
+/* left: 20px; */
+border: 1px solid  grey;
 display: none;
 }
 #hamlink ul{
     list-style-type: none;
-    margin: 0px;
+    width: 100%;
     padding: 10px;
+    position: relative;
 }
 #hamlink ul li{
     border: none;
     margin: 0px;
-    padding: 10px;
+    padding: 10px 0px;
+    background: transparent;
+    position: relative;
+    font-weight: bold;
+    border-bottom: 1px solid grey;
+
+
+}
+#hamlink ul li a {
+    text-decoration: none;
+    color: black;
+}
+.xdiv{
+    margin-bottom: 20px;
+    margin-right: 10px;
 }
 .xdiv img{
     width: 20px;
     float: right;
     
+
 }
 @media (min-width:320px) and (max-width:450px){
     #logo-pic{
@@ -94,5 +118,9 @@ display: none;
     #dp-link{
         margin-right: 0px;
     }
+    .ham-div{
+        display: block;
+    }
+    
 }
 
